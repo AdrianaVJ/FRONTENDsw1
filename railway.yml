@@ -1,0 +1,11 @@
+version: 0.3
+services:
+  - name: web
+    type: web
+    port: 3000
+    buildCommand: npm install && npm run build
+environments:
+  production:
+    buildCommand: npm install && npm run build
+    env:
+      NODE_ENV: production

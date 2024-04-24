@@ -1,0 +1,93 @@
+.top {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  z-index: 999;
+  font-family: Bookman, URW Bookman L, serif	;
+  background-color: #01696e;
+  color: #ffffff; /* Debes cambiar esto a #ffffff para el color blanco */
+}
+
+.topLeft,
+.topRight {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topIcon {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #444;
+  cursor: pointer;
+}
+
+.topCenter {
+  flex: 6;
+}
+
+.topList {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.topListItem {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.topListItem:hover{
+    color: gray;
+}
+
+.topImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none; /* Elimina los bordes de Link */
+  font-family: 'MiFuenteElegante', sans-serif; /* Usa tu fuente personalizada y luego una fuente de respaldo */
+  font-size: 16px; /* Tamaño de fuente */
+  color: #63a2a5; /* Color de texto personalizado */
+}
+
+/* Estilo para los enlaces al pasar el mouse (puedes personalizar esto según tus preferencias) */
+a:hover {
+  text-decoration: underline; /* Agrega subrayado al pasar el mouse si lo deseas */
+  color: gray; /* Color de texto personalizado al pasar el mouse */
+}
+
+/* Define un estilo para el botón de cerrar sesión */
+.topLogoutButton {
+  background-color: #085659; /* Color de fondo */
+  color: white; /* Color de texto */
+  border: none; /* Elimina el borde */
+  padding: 10px 20px; /* Espaciado interno (ajusta según sea necesario) */
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambia el cursor al pasar el mouse */
+  border-radius: 5px; /* Bordes redondeados */
+  font-family: 'MiFuenteElegante', sans-serif; /* Usa tu fuente personalizada y luego una fuente de respaldo */
+  transition: background-color 0.3s, color 0.3s; /* Transición suave al pasar el mouse */
+}
+
+/* Cambia los colores al pasar el mouse */
+.topLogoutButton:hover {
+  background-color: #04292a; /* Color de fondo al pasar el mouse */
+  color: white; /* Color de texto al pasar el mouse */
+}
+

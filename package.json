@@ -1,0 +1,51 @@
+{
+  "name": "sequence_diagram",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+
+"scripts": {
+  "dev": "vite",
+   "build": "tsc && vite build",
+   "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+   "preview": "vite preview",
+   "start": "serve dist -s -n -L -p $PORT"
+ },
+
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.13",
+    "@types/react-router-dom": "^5.3.3",
+    "axios": "^1.5.1",
+    "cors": "^2.8.5",
+    "eslint-plugin-jest": "^27.4.2",
+    "file-saver": "^2.0.5",
+    "firebase": "^10.4.0",
+    "gojs": "^2.3.11",
+    "gojs-react": "^1.1.2",
+    "js-cookie": "^3.0.5",
+    "node-popup": "^0.1.14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.16.0",
+    "serve": "^14.2.1",
+    "socket.io-client": "^4.7.2",
+    "styled-components": "^6.0.8",
+    "web-vitals": "^3.5.0",
+    "xmldom-ts": "^0.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.7.5",
+    "@typescript-eslint/parser": "^6.7.5",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}

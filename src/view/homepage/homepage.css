@@ -1,0 +1,8 @@
+.home {
+  display: flex;
+}
+/* homepage.css */
+.diagram-container {
+  width: 100%;
+  height: 500px; /* Adjust the height as needed */
+}
